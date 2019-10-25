@@ -1,64 +1,54 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
+Visual Studio Online Quickstart Sample
+======================================
 
-# Official Microsoft Sample
+This is a sample project that supports the Visual Studio Online quickstart documentation. It can be used for either the [browser based quickstart](https://aka.ms/vso-docs/quickstart/browser) or the [Visual Studio Code based quickstart](https://aka.ms/vso-docs/quickstart/vscode).
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+To make this file easier to read, press [`ctrl`]+[`shift`]+[`V`].
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+This repository has been cloned into your VS Online cloud-hosted environment. You're able to work with it like you would any local code. Some things to try:
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+Terminal: 
+---------
 
-Give a short description for your sample here. What does it do and why is it important?
+1. Press [`ctrl`]+[`shift`]+[`backtick`] to open a new terminal
+2. From the terminal run `node --version`
+   > Note: Node.js may or may not be installed on your local machine, yet you're able to use it because it's been automatically added to this environment!
+3. Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
 
-## Contents
+Browse Files:
+-------------
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+1. Notice that `node_modules` are in the File Explorer
+   > Note: VS Online automatically performed an `npm install` so you can be instantly productive!
+2.  Open files to see syntax highlighting
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+Edit code:
+----------
 
-## Prerequisites
+1. Open `server.js`
+   > Note: ESLint has been installed and configured in this environment. Press [`ctrl`]+[`shift`]+[`M`] to see the problems found by ESLint. Fix then by changing instances of `var` to `const`.
+2. Change the message to "Hello {your name} from VS Online!" (on line 18)
+   
+Build, Run, and Debug:
+----------------------
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+1. Add a breakpoint on line 21
+2. Press [`F5`] to launch the app
+3. Once the breakpoint is hit, try hovering over variables, examining locals, and more.
 
-## Setup
+Forward Port:
+-------------
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+1. Press [`F1`] to show the command palette
+2. Search for and run the **VS Online: Forward Port** command
+   - Enter port 3000
+   - Accept the default name
+3. View the forwarded ports in the **Environment Details** panel on the **Remote Explorer**
+4. Click the **Copy Port URL** button in the **localhost:3000** title bar
+5. Paste the URL into the browser of your choice.
+   > Note: VS Online has forwarded the environment's port 3000 to a location you can now access
 
-## Runnning the sample
-
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
-
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Disconnect Environment:
+-----------------------
+1. View the environments in the **VS Online** panel on the **Remote Explorer**
+2. Right click on **My Quick Environment** and select **Disconnect**
