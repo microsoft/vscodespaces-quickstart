@@ -39,13 +39,12 @@ Build, Run, and Debug:
 Forward Port:
 -------------
 
-1. Press [`F1`] to show the command palette
-2. Search for and run the **VS Online: Forward Port** command
-   - Enter port 3000
+1. Open the **Remote Explorer** activity pane
+2. In the **Environment Details** panel, click the **Forward Port** button that appears when you hover over **Forwarded Ports (#)**
+   - Enter port 3000 in the prompt
    - Accept the default name
-3. View the forwarded ports in the **Environment Details** panel on the **Remote Explorer**
-4. Click the **Copy Port URL** button in the **localhost:3000** title bar
-5. Paste the URL into the browser of your choice.
+3. Click the **Copy Port URL** button in the **localhost:3000** title bar
+4. Paste the URL into the browser of your choice.
    > Note: VS Online has forwarded the environment's port 3000 to a location you can now access
 
 Disconnect Environment:
