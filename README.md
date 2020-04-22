@@ -15,6 +15,8 @@ Terminal:
    > Note: Node.js may or may not be installed on your local machine, yet you're able to use it because it's been automatically added to this environment!
 3. Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
 
+
+
 Browse Files:
 -------------
 
