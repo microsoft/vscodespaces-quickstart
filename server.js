@@ -14,7 +14,7 @@ var HOST = 'localhost';
 // App
 var app = express();
 app.get('/', (req, res) => {
-	res.send(`Hello world from VS Online\n`);
+	res.send(`Hello world from VS Codespaces\n`);
 });
 
 app.listen(PORT, HOST);

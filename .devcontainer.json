@@ -1,5 +1,5 @@
 {
-    "name": "VS Online Quickstart Sample",
+    "name": "VS Codespaces Quickstart Sample",
     "extensions": [
         "dbaeumer.vscode-eslint"
     ]
