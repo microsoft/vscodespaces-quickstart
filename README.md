@@ -1,11 +1,11 @@
-Visual Studio Online Quickstart Sample
+Visual Studio Codespaces Quickstart Sample
 ======================================
 
-This is a sample project that supports the Visual Studio Online quickstart documentation. It can be used for either the [browser based quickstart](https://aka.ms/vso-docs/quickstart/browser) or the [Visual Studio Code based quickstart](https://aka.ms/vso-docs/quickstart/vscode).
+This is a sample project that supports the Visual Studio Codespaces quickstart documentation. It can be used for either the [browser based quickstart](https://aka.ms/vso-docs/quickstart/browser) or the [Visual Studio Code based quickstart](https://aka.ms/vso-docs/quickstart/vscode).
 
 To make this file easier to read, press [`ctrl`]+[`shift`]+[`V`].
 
-This repository has been cloned into your VS Online cloud-hosted environment. You're able to work with it like you would any local code. Some things to try:
+This repository has been cloned into your VS Codespaces cloud-hosted environment. You're able to work with it like you would any local code. Some things to try:
 
 Terminal: 
 ---------
@@ -19,7 +19,7 @@ Browse Files:
 -------------
 
 1. Notice that `node_modules` are in the File Explorer
-   > Note: VS Online automatically performed an `npm install` so you can be instantly productive!
+   > Note: VS Codespaces automatically performed an `npm install` so you can be instantly productive!
 2.  Open files to see syntax highlighting
 
 Edit code:
@@ -27,7 +27,7 @@ Edit code:
 
 1. Open `server.js`
    > Note: ESLint has been installed and configured in this environment. Press [`ctrl`]+[`shift`]+[`M`] to see the problems found by ESLint. Fix then by changing instances of `var` to `const`.
-2. Change the message to "Hello {your name} from VS Online!" (on line 18)
+2. Change the message to "Hello {your name} from VS Codespaces!" (on line 18)
    
 Build, Run, and Debug:
 ----------------------
@@ -45,9 +45,9 @@ Forward Port:
    - Accept the default name
 3. Click the **Copy Port URL** button in the **localhost:3000** title bar
 4. Paste the URL into the browser of your choice.
-   > Note: VS Online has forwarded the environment's port 3000 to a location you can now access
+   > Note: VS Codespaces has forwarded the environment's port 3000 to a location you can now access
 
 Disconnect Environment:
 -----------------------
-1. View the environments in the **VS Online** panel on the **Remote Explorer**
+1. View the environments in the **Codespaces** panel on the **Remote Explorer**
 2. Right click on **My Quick Environment** and select **Disconnect**
