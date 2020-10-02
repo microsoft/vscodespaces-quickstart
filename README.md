@@ -1,7 +1,7 @@
 Visual Studio Codespaces Quickstart Sample
 ======================================
 
-This is a sample project that supports the Visual Studio Codespaces quickstart documentation. It can be used for either the [browser based quickstart](https://aka.ms/vso-docs/quickstart/browser) or the [Visual Studio Code based quickstart](https://aka.ms/vso-docs/quickstart/vscode).
+This is a sample project that supports the Visual Studio Codespaces quickstart documentation. It can be used for either the [browser based quickstart](https://docs.microsoft.com/en-us/visualstudio/codespaces/how-to/browser) or the [Visual Studio Code based quickstart](https://aka.ms/vso-docs/quickstart/vscode).
 
 To make this file easier to read, press [`ctrl`]+[`shift`]+[`V`].
 
